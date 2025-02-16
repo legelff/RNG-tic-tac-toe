@@ -1,54 +1,32 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# RNG Tic-Tac-Toe
+A unique 1v1 Tic-Tac-Toe game with health bars! Each win deals random damage to your opponent, and the battle continues until one player reaches 0% health.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![DemoRNGtictactoe](rngtictactoedemo.jpeg)
 
-Currently, two official plugins are available:
+## Website 
+You can visit the website where this project is hosted at: <br>
+https://www.l145.be/rng-tic-tac-toe/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **1v1 Tic-Tac-Toe Battles** – Classic Tic-Tac-Toe with a competitive twist.  
+- **Health Bar System** – Players start with a health bar; losing rounds drains health.  
+- **Luck-Based Draw Penalty** – On a draw, both players lose a random amount of health.  
+- **Scoring System** – Score a point each time you drop your opponent’s health to 0%.
+- **Editable Player Names** – Customize player names to easily identify who’s playing.
+- **Modern & Responsive UI** – Sleek, intuitive design optimized for all devices.  
+- **Fast & Optimized** – Built for smooth performance with minimal load times.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Vite
+- HTML & CSS
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Contact
+If you have any questions or suggestions, feel free to reach out:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# RNG-tic-tac-toe
->>>>>>> origin/main
+- Email: business@l145.be
+- LinkedIn: https://www.linkedin.com/in/aryan-shah-l145
+- GitHub: legelff
